@@ -2,6 +2,9 @@ import requests
 
 
 def get_quote():
+    '''
+    Get Breaking Bad quotes
+    '''
     url = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes'
     response = requests.get(url).json()[0]
 
