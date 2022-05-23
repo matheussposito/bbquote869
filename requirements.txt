@@ -14,3 +14,4 @@ yapf
 six>=1.14
 termcolor
 requests
+streamlit
